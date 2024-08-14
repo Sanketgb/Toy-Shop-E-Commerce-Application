@@ -1,0 +1,96 @@
+<div>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Discover the Joy of Toys</h1>
+        <p>Explore our wide range of toys for kids of all ages!</p>
+        <button mat-button routerLink="/login" routerLinkActive="active" >Shop Now</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+         
+          <div class="product-card">
+            <img [src]="elephant" alt="Toy 1">
+            <h3>Elephant Super Soft Toye</h3>
+            <p>$19.99</p>
+            <button mat-button routerLink="/login" routerLinkActive="active" >Shop Now</button>
+          </div>
+          <div class="product-card">
+            <img [src]="deadpool" alt="Toy 2">
+            <h3>Deadpool Action Figure Toy</h3>
+            <p>$24.99</p>
+            <button mat-button routerLink="/login" routerLinkActive="active" >Shop Now</button>
+          </div>
+          <div class="product-card">
+            <img [src]="minions" alt="Toy 3">
+            <h3>Minions Plastic Figures</h3>
+            <p>$29.99</p>
+            <button mat-button routerLink="/login" routerLinkActive="active" >Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Toy Categories Section -->
+    <section class="section" style="background-color: #f0f0f0;">
+      <div class="container">
+        <h2>Toy Categories</h2>
+        <div class="category-list">
+
+          <div class="category-card">
+            <img [src]="musictoy" alt="Category 3">
+            <h3>Musical Toys</h3>
+            <button mat-button routerLink="/login" routerLinkActive="active" >Explore Now</button>
+          </div>
+          <div class="category-card">
+            <img [src]="teddyBear" alt="Category 1">
+            <h3>Soft Toys</h3>
+            <button mat-button routerLink="/login" routerLinkActive="active" >Explore Now</button>
+          </div>
+          <div class="category-card">
+            <img [src]="ironman" alt="Category 2">
+            <h3>Action Toys</h3>
+            <button mat-button routerLink="/login" routerLinkActive="active" >Explore Now</button>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Established with a delightful shopping experience for toys that inspire imagination and learning.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>Address: 123 Toy Street, Toyland</li>
+              <li>Email: info@toyshop.com</li>
+              <li>Phone: +123 456 7890</li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a routerLink="/">Home</a></li>
+              <li><a routerLink="/login" >Shop</a></li>
+              <li><a routerLink="/">Contact</a></li>
+              <li><a routerLink="/login" >Login</a></li>
+              <li><a routerLink="/signup" >Register</a></li>
+              <li><a routerLink="/order">Track Order</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <p>&copy; 2024 Toy Shop. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
